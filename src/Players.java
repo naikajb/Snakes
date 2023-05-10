@@ -1,5 +1,3 @@
-package first_try;
-
 import javax.swing.text.Position;
 
 //--------------------------------------------------
@@ -10,7 +8,7 @@ import javax.swing.text.Position;
 public class Players {
     private String name;
 
-    //public first_try.Positions positions;
+
     private int position;
 
     /**
@@ -58,7 +56,7 @@ public class Players {
         if(position < 100) {
             this.position = position;
         }else{
-            this.position = position % 100;
+            this.position = 100 - position % 100;
         }
     }
 

@@ -1,10 +1,10 @@
-package first_try;//-----------------------------------
 //Naika Jean-Baptiste 40227367
 //COMP249
 //Assignment #1 Part I
 //DUe date     Friday, February 3, 2023
-import java.util.Scanner;
+
 import java.util.Random;
+import java.util.Scanner;
 public class LadderAndSnake {
 
     private int numOfPlayers;
@@ -159,9 +159,9 @@ public class LadderAndSnake {
     public void play() {
 
 
-       /* int squareP1 = 0, squareP2 = 0;
+       int squareP1 = 0, squareP2 = 0;
         int diceRoll = 0;
-        int n = 0;
+       // int n = 0;
         do {
             if (firstPlayer.equalsIgnoreCase(players[0].getName())) {
                 diceRoll = flipDice();
@@ -174,20 +174,22 @@ public class LadderAndSnake {
                 players[1].setPosition(players[1].getPosition() + diceRoll);
                 System.out.println(players[1].getName() + " got a dice value of " + diceRoll + "; now at " + players[1].getPosition());
                 System.out.println(checkWinner(players[0].getPosition(), players[1].getPosition()));
+                //printBoard();
             } else {
                 diceRoll = flipDice();
                 players[1].setPosition(players[1].getPosition() + diceRoll);
-                System.out.println(players[1].getName() + " got a dice value of " + diceRoll + "; now at " + players[0].getPosition());
+                System.out.println(players[1].getName() + " got a dice value of " + diceRoll + "; now at " + players[1].getPosition());
 
                 diceRoll = flipDice();
-                players[1].setPosition(players[0].getPosition() + diceRoll);
+                players[0].setPosition(players[0].getPosition() + diceRoll);
                 System.out.println(players[0].getName() + " got a dice value of " + diceRoll + "; now at " + players[0].getPosition());
                 System.out.println(checkWinner(players[0].getPosition(), players[1].getPosition()));
+                //printBoard();
             }
-            n++;
-        }while(n < 4);
-        while (players[0].getPosition() != 100 && players[1].getPosition() != 100);
-    */
+            //n++;
+            //}while(n < 4);
+        }while (players[0].getPosition() != 100 && players[1].getPosition() != 100);
+
     }
 
     //TODO check which method should be used between checkWinner() and winnerExists()

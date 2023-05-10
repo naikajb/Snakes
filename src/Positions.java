@@ -1,5 +1,3 @@
-package first_try;
-
 public class Positions {
 
     public Players player;

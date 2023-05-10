@@ -1,12 +1,9 @@
-package first_try; /**
+/**
+ * Driver for Snakes and Ladders game in terminal
+ *
  * @author Naika Jean-Baptiste
  */
 
-//-----------------------------------
-//Naika Jean-Baptiste 40227367
-//COMP249
-//Assignment #1 Part II
-//DUe date     Friday, February 3, 2023
 import java.util.Scanner;
 
 public class PlayLadderAndSnake {
