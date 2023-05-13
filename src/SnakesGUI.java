@@ -14,10 +14,13 @@ public class SnakesGUI extends JFrame {
     //61 62 63 ... 60
     //    .....
     // 1 2 3 .... 10
+
+    /**
+     * creates and initializes icons array for GUI
+     */
     private void createIcons(){
         int num = 0;
         ImageIcon img;
-
         for(int row = 10; row > 0; row--){
             for(int col = 0; col < COLUMN; col++){
                 if(row %2 != 0){
