@@ -1,2 +1,2 @@
 # Snakes
-Snakes and Ladders game
+Snakes and Ladders game, but GUI not fully done.
